@@ -12,24 +12,3 @@ Welcome to the Treasure Hunter project! Your task is to develop the intelligence
 
 2. **Performance Metrics:**
    - Evaluate key metrics in the provided testing environment, including average turns and runtime for 100 maps.
-
-3. **Documentation:**
-   - Provide a rough estimate of your solution development time.
-
-## Project Details
-- Explore game mechanics in the testing engine using arrow keys.
-- The testing engine references `solution.js` for automated testing.
-
-## Implementation Guidelines
-- Implement the `Stacker` class with a `turn` method.
-- JSON object structure:
-
-```json
-{
-  "left": { "type": someValue, "level": someValue },
-  "up": { "type": someValue, "level": someValue },
-  "right": { "type": someValue, "level": someValue },
-  "down": { "type": someValue, "level": someValue },
-  "type": someValue,
-  "level": someValue
-}
